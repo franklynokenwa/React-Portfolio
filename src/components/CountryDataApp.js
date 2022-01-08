@@ -1,18 +1,20 @@
 import React from 'react'
 import ProjectsDescription from './ProjectsDescription'
 import ProjectsImage from './ProjectsImage'
+import ProjectDetails from './styles/Shortly.styled'
+
 
 const CountryDataApp = (props) => {
     const {projectHead, projectDetails, projectLink, projectImage} = props
     return (
-        <div>
+        <ProjectDetails>
+            <ProjectsImage projectImage={projectImage}/>
             <ProjectsDescription 
                 projectDetails={projectDetails} 
                 projectHead={projectHead}
                 projectLink={projectLink}
             />
-            <ProjectsImage projectImage={projectImage}/>
-        </div>
+        </ProjectDetails>
     )
 }
 

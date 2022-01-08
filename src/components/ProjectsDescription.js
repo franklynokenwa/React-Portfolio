@@ -1,13 +1,14 @@
 import React from 'react'
+import StyledProjectDescription from './styles/ProjectsDescription.styled'
 
 const ProjectsDescription = (props) => {
     const {projectHead, projectDetails, projectLink} = props
     return (
-        <div>
+        <StyledProjectDescription data-aos="zoom-out-up">
             <h3>{projectHead}</h3>
             <p>{projectDetails} </p>
-            <p>{projectLink}</p>
-        </div>
+            <a href={projectLink} >{projectLink} </a>
+        </StyledProjectDescription>
     )
 }
 

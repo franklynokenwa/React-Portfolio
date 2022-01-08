@@ -4,7 +4,7 @@ import StyledMission from './styles/Mission.styled'
 const Mission = () => {
     return (
         <StyledMission>
-            <p>My mission is to create positive impact</p>
+            <p data-aos="zoom-in-up">My mission is to add value to any individual or organization that I encounter</p>
         </StyledMission>
     )
 }

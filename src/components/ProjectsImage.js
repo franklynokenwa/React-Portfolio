@@ -1,11 +1,12 @@
 import React from 'react'
+import StyledProjectImage from './styles/ProjectImage.styled'
 
 const ProjectsImage = (props) => {
     const {projectImage} = props
     return (
-        <div>
+        <StyledProjectImage data-aos="zoom-out-down">
             <img src={projectImage} alt="A screenshot of the project" />
-        </div>
+        </StyledProjectImage>
     )
 }
 

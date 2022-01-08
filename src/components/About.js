@@ -1,29 +1,33 @@
 import React from 'react'
 import StyledAbout from './styles/About.styled'
+import AboutHead from './styles/AboutHead.styled'
+import AboutDescription from './styles/AboutDescription.styled'
 
 const About = () => {
     return (
         <StyledAbout>
-            <div>
+            <AboutHead data-aos="zoom-out-right">
                 <h3>about me</h3>
                 <p>Helping you reach your full potential</p>
-            </div>
-            <div>
+            </AboutHead>
+            <AboutDescription data-aos="zoom-out-left">
                 <div>
-                    <h1>Who am I</h1>
-                    <p>Experienced Web and App Developer with digital
-                    experience. Skills include web and app development,
-                    analytical thinking and creative problem solving. Able
-                    to apply customer service concepts to digital services
-                    to improve user experience for clients, employees and
-                    administration.
+                    <h3>Who am I?</h3>
+                    <p>I'm a result-oriented, hardworking and effective frontend developer
+                        passionate about building, interactive, beautiful, responsive
+                        and accessible websites and web applications that solves real life problems
+                        and I'm open to opportunities that helps me to grow and improve on my abilities
                     </p>
                 </div>
                 <div>
-                    <h1>What are my skills</h1>
-                    <p>React 1year</p>
+                    <h3>What are my skills?</h3>
+                    <p>HTML 3+ years</p>
+                    <p>CSS 3+ years</p>
+                    <p>JavaScript 2+  years</p>
+                    <p>React 1 year</p>
+                    <p>Git and GitHub 2+ years</p>
                 </div>
-            </div>
+            </AboutDescription>
         </StyledAbout>
     )
 }

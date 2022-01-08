@@ -11,10 +11,21 @@ import emillenialStoreHomePage from './images/emillenialStoreHomePage.PNG'
 import memeGeneratorScreenshot from './images/memeGeneratorScreenshot.PNG'
 import shortlyScreenshot from './images/shortlyScreenshot.PNG'
 import simpleCalculator from './images/simpleCalculator.PNG'
+import GlobalStyles from './components/styles/GlobalStyles';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function App() {
+  AOS.init({
+    offset: 200,
+    duration: 1500,
+    easing: 'ease'
+  });
+
   return (
     <div className="App">
+      <GlobalStyles/>
       <Header/>
       <About/>
       <Mission/>
