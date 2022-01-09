@@ -26,11 +26,28 @@ const StyledProjectDescription = styled.section`
     @media only screen and (max-width:411px){
         p{
             width: 20rem;
-            text-align: center;
         }
         h3{
         font-size: 2rem;
+        }
     }
+
+    @media only screen and (max-width:320px){
+        width: 19rem;
+        background-color: blue;
+        text-align: center;
+        
+        a{
+            font-size:0.9rem;
+        }
+        P{
+            font-size:0.9rem;
+            width: 17rem; 
+        }
+        h3{
+            font-size: 1.5rem;
+        }
     }
+    
 `
 export default StyledProjectDescription

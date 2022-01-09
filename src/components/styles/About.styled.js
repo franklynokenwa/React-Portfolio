@@ -24,6 +24,15 @@ const StyledAbout = styled.section`
             width: 20rem;
         }
     }
+    @media only screen and (max-width:320px){
+        section p{
+            width: 17rem;
+            text-align:center;
+        }
+        h3{
+            font-size: 1.5rem
+        }
+    }
 
 `
 export default StyledAbout

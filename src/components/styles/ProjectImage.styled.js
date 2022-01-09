@@ -31,6 +31,14 @@ const StyledProjectImage = styled.section`
             width:21rem;
         }
     }
+    @media only screen and (max-width:320px){
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+        img{
+            width: 18.5rem;
+        }
+
+    }
 
 `
 export default StyledProjectImage

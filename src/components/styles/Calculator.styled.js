@@ -16,6 +16,11 @@ const ProjectDetails = styled.section`
         padding-right: 1.5rem;
         padding-left: 1.5rem;
     }
+    @media only screen and (max-width:320px){
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+
+    }
     
 `
 export default ProjectDetails
