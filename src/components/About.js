@@ -25,6 +25,7 @@ const About = () => {
                     <p>CSS 3+ years</p>
                     <p>JavaScript 2+  years</p>
                     <p>React 1 year</p>
+                    <p>Node Js</p>
                     <p>Git and GitHub 2+ years</p>
                 </div>
             </AboutDescription>
