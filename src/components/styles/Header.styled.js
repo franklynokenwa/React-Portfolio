@@ -16,6 +16,18 @@ const StyledHeader = styled.div `
         font-family: 'Moon Dance', cursive;
 
     }
+    @media only screen and (max-width:411px){
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+
+        h1{
+            width: 20rem;
+            font-size: 3rem;
+        }
+        p{
+            font-size: 2.5rem;
+        }
+    }
 
 `
 

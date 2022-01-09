@@ -13,6 +13,16 @@ const AboutHead = styled.div `
         position: relative;
         top: -10rem;
     }
+    @media only screen and (max-width:411px){
+        h3{
+            width: 20rem;
+            font-size: 6rem;
+        }
+        p{
+        position: relative;
+        top: -5rem;
+    }
+    }
 
 `
 

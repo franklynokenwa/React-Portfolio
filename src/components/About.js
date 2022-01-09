@@ -11,14 +11,14 @@ const About = () => {
                 <p>Helping you reach your full potential</p>
             </AboutHead>
             <AboutDescription data-aos="zoom-out-left">
-                <div>
+                <section>
                     <h3>Who am I?</h3>
                     <p>I'm a result-oriented, hardworking and effective frontend developer
                         passionate about building, interactive, beautiful, responsive
                         and accessible websites and web applications that solves real life problems
                         and I'm open to opportunities that helps me to grow and improve on my abilities
                     </p>
-                </div>
+                </section>
                 <div>
                     <h3>What are my skills?</h3>
                     <p>HTML 3+ years</p>

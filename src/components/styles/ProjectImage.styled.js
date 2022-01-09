@@ -18,5 +18,19 @@ const StyledProjectImage = styled.section`
         border-radius: 30px;
     }
 
+    @media only screen and (max-width:540px){
+       img{
+         width: 30rem;
+       }
+        
+    }
+    @media only screen and (max-width:411px){
+        padding-left: 1rem;
+        padding-right: 1rem;
+        img{
+            width:21rem;
+        }
+    }
+
 `
 export default StyledProjectImage

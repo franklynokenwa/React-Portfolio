@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectsDescription from './ProjectsDescription'
 import ProjectsImage from './ProjectsImage'
-import ProjectDetails from './styles/Shortly.styled'
+import ProjectDetails from './styles/MemeGenerator.styled'
 
 
 const MemeGenerator = (props) => {

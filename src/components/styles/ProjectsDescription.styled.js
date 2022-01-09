@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyledProjectDescription = styled.section`
     margin:  auto 0;
-    width: 33rem;
+    width: 25rem;
 
     h3{
         font-size: 2.5rem;
@@ -10,7 +10,7 @@ const StyledProjectDescription = styled.section`
     }
     p{
         margin-bottom: 1.5rem;
-        width:30rem;
+        width:25rem;
     }
     a{
         text-decoration: none;
@@ -18,6 +18,19 @@ const StyledProjectDescription = styled.section`
     }
     a:hover{
         color: green;
+    }
+
+    @media only screen and (max-width:768px){
+        margin-bottom: 4rem;
+    }
+    @media only screen and (max-width:411px){
+        p{
+            width: 20rem;
+            text-align: center;
+        }
+        h3{
+        font-size: 2rem;
+    }
     }
 `
 export default StyledProjectDescription
