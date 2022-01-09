@@ -11,8 +11,6 @@ const ProjectDetails = styled.section`
 
     @media only screen and (max-width:768px){
         flex-direction: column;
-        margin-bottom: 19rem;
-
     }
     @media only screen and (max-width:540px){
         padding-right: 1.5rem;

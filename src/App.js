@@ -6,11 +6,13 @@ import MemeGenerator from './components/MemeGenerator';
 import ECommerceStore from './components/ECommerceStore';
 import Calculator from './components/Calculator';
 import CountryDataApp from './components/CountryDataApp';
+import DogBreeds from './components/DogBreeds';
 import CountryDataAppScreenshot from './images/countryDataAppScreenshot.PNG';
 import emillenialStoreHomePage from './images/emillenialStoreHomePage.PNG'
 import memeGeneratorScreenshot from './images/memeGeneratorScreenshot.PNG'
 import shortlyScreenshot from './images/shortlyScreenshot.PNG'
 import simpleCalculator from './images/simpleCalculator.PNG'
+import breedsOfDogsScreenshot from './images/breedsOfDogsScreenshot.PNG'
 import GlobalStyles from './components/styles/GlobalStyles';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -68,6 +70,16 @@ function App() {
         subtraction, multiplication and division.'
         projectLink='https://a-simple-calculator-kvib2x1om-franklynwisdom.vercel.app/' 
         projectImage={simpleCalculator}
+      />
+      <DogBreeds
+        projectHead='Different breeds of dogs'
+        projectDetails='This is a web application that displays images of the different breed of dogs. 
+        The application simply fetches images of different breeds of dogs from an API and displays them. 
+        The app is responsive on different screen sizes.'
+        projectLink='https://franklynwisdom.github.io/different-breeds-of-dogs/' 
+        projectImage={breedsOfDogsScreenshot}
+      
+      
       />
     </div>
   );

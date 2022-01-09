@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 const StyledProjectImage = styled.section`
         margin:  auto 0;
+        cursor: pointer;
 
     img{
         width: 40rem;
         height: 25rem;
-        border: 2px solid green;
+        border: 2px solid orange;
         border-radius: 20px;
 
     }

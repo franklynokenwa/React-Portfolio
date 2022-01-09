@@ -12,7 +12,7 @@ const Shortly = (props) => {
                 projectHead={projectHead}
                 projectLink={projectLink}
             />
-            <ProjectsImage projectImage={projectImage}/>
+            <ProjectsImage projectImage={projectImage} projectLink={projectLink}/>
         </ProjectDetails>
     )
 }

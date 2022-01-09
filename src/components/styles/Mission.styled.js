@@ -15,7 +15,7 @@ const StyledMission = styled.section`
         font-size: 4rem;
         width: 55rem;
         margin: 0 auto;
-        color: green;
+        color: orange;
     }
     @media only screen and (max-width:411px){
         padding-right: 1.5rem;

@@ -7,7 +7,7 @@ const AboutHead = styled.div `
     h3{
         font-size: 9rem;
         font-family: 'Moon Dance', cursive;
-        color: green;
+        color: orange;
     }
     p{
         position: relative;

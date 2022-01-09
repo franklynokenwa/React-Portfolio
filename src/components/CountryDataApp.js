@@ -8,7 +8,7 @@ const CountryDataApp = (props) => {
     const {projectHead, projectDetails, projectLink, projectImage} = props
     return (
         <ProjectDetails>
-            <ProjectsImage projectImage={projectImage}/>
+            <ProjectsImage projectImage={projectImage} projectLink={projectLink}/>
             <ProjectsDescription 
                 projectDetails={projectDetails} 
                 projectHead={projectHead}

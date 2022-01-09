@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const StyledHeader = styled.div `
-    background-color: green;
+    background-color: orange;
     height: 30rem;
     padding-left: 4rem;
     margin-top: -4rem;

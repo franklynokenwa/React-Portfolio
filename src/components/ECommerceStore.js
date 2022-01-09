@@ -9,7 +9,7 @@ const ECommerceStore = (props) => {
 
     return (
         <ProjectDetails>
-            <ProjectsImage projectImage={projectImage}/>
+            <ProjectsImage projectImage={projectImage} projectLink={projectLink}/>
             <ProjectsDescription
                 projectDetails={projectDetails} 
                 projectHead={projectHead}

@@ -17,7 +17,7 @@ const StyledProjectDescription = styled.section`
         color: black;
     }
     a:hover{
-        color: green;
+        color: orange;
     }
 
     @media only screen and (max-width:768px){
@@ -34,7 +34,6 @@ const StyledProjectDescription = styled.section`
 
     @media only screen and (max-width:320px){
         width: 19rem;
-        background-color: blue;
         text-align: center;
         
         a{

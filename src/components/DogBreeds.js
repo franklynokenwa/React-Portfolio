@@ -1,20 +1,21 @@
 import React from 'react'
 import ProjectsDescription from './ProjectsDescription'
 import ProjectsImage from './ProjectsImage'
-import ProjectDetails from './styles/Calculator.styled'
+import ProjectDetails from './styles/DogBreeds.styled'
 
-const Calculator = (props) => {
+
+const DogBreeds = (props) => {
     const {projectHead, projectDetails, projectLink, projectImage} = props
     return (
         <ProjectDetails>
-            <ProjectsDescription
+            <ProjectsImage projectImage={projectImage} projectLink={projectLink}/>
+            <ProjectsDescription 
                 projectDetails={projectDetails} 
                 projectHead={projectHead}
                 projectLink={projectLink}
             />
-            <ProjectsImage projectImage={projectImage} projectLink={projectLink}/>
         </ProjectDetails>
     )
 }
 
-export default Calculator
+export default DogBreeds
