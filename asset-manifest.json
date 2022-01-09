@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.31c7f2fb.css",
-    "main.js": "/React-Portfolio/static/js/main.618c6501.js",
+    "main.js": "/React-Portfolio/static/js/main.fcfa88a7.js",
     "static/js/787.cf250828.chunk.js": "/React-Portfolio/static/js/787.cf250828.chunk.js",
     "static/media/memeGeneratorScreenshot.PNG": "/React-Portfolio/static/media/memeGeneratorScreenshot.093ab649672b2e62d0ae.PNG",
     "static/media/breedsOfDogsScreenshot.PNG": "/React-Portfolio/static/media/breedsOfDogsScreenshot.8bdc541f26805a7c0dad.PNG",
@@ -11,11 +11,11 @@
     "static/media/simpleCalculator.PNG": "/React-Portfolio/static/media/simpleCalculator.bf3bef963ee37811877f.PNG",
     "index.html": "/React-Portfolio/index.html",
     "main.31c7f2fb.css.map": "/React-Portfolio/static/css/main.31c7f2fb.css.map",
-    "main.618c6501.js.map": "/React-Portfolio/static/js/main.618c6501.js.map",
+    "main.fcfa88a7.js.map": "/React-Portfolio/static/js/main.fcfa88a7.js.map",
     "787.cf250828.chunk.js.map": "/React-Portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31c7f2fb.css",
-    "static/js/main.618c6501.js"
+    "static/js/main.fcfa88a7.js"
   ]
 }
