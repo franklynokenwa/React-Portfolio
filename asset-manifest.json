@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.31c7f2fb.css",
+    "main.js": "/react-portfolio/static/js/main.c6c1c939.js",
+    "static/js/787.cf250828.chunk.js": "/react-portfolio/static/js/787.cf250828.chunk.js",
+    "static/media/memeGeneratorScreenshot.PNG": "/react-portfolio/static/media/memeGeneratorScreenshot.093ab649672b2e62d0ae.PNG",
+    "static/media/breedsOfDogsScreenshot.PNG": "/react-portfolio/static/media/breedsOfDogsScreenshot.8bdc541f26805a7c0dad.PNG",
+    "static/media/emillenialStoreHomePage.PNG": "/react-portfolio/static/media/emillenialStoreHomePage.fa201cca9d0379df0940.PNG",
+    "static/media/shortlyScreenshot.PNG": "/react-portfolio/static/media/shortlyScreenshot.8201dc5a2caba919b111.PNG",
+    "static/media/countryDataAppScreenshot.PNG": "/react-portfolio/static/media/countryDataAppScreenshot.d20d4a9fd2abbc968a0c.PNG",
+    "static/media/simpleCalculator.PNG": "/react-portfolio/static/media/simpleCalculator.bf3bef963ee37811877f.PNG",
+    "index.html": "/react-portfolio/index.html",
+    "main.31c7f2fb.css.map": "/react-portfolio/static/css/main.31c7f2fb.css.map",
+    "main.c6c1c939.js.map": "/react-portfolio/static/js/main.c6c1c939.js.map",
+    "787.cf250828.chunk.js.map": "/react-portfolio/static/js/787.cf250828.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31c7f2fb.css",
+    "static/js/main.c6c1c939.js"
+  ]
+}
